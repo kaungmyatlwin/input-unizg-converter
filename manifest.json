@@ -1,0 +1,16 @@
+{
+  "name": "Input Converter Uni <=> Zg",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Uni <=> Zg Font converter for selected text in input values.",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [
+        "js/knayi-myscript.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
