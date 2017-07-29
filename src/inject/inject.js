@@ -7,7 +7,6 @@
 			var activeElement = document.activeElement;
 			var defaultValue = activeElement.value;
 			var selectedText = getSelectionText();
-			var selectedNode = window.getSelection().anchorNode.parentNode;
 			if(knayi.fontDetect(selectedText) === 'zawgyi') {
 				activeElement.value = knayi.fontConvert(selectedText, 'unicode');
 			} else if (knayi.fontDetect(selectedText) === 'zawgyi') {
