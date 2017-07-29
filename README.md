@@ -1,21 +1,21 @@
-### Input Uni <=> Zawgyi Converter - Convert Unicode and Zawgyi for Input Text Types
+## Input Uni <=> Zawgyi Converter - Convert Unicode and Zawgyi for Input Text Types
 
 
-#### Installation 
+### Installation 
 
 Download [extension](https://github.com/kaungmyatlwin/input-unizg-converter/raw/master/dist/input-unizg-converter.crx).
 
 If download is initiated, click on Keep.
 
-#### Usage
+### Usage
 
-Select text which is in textbox.
+Select text in textbox.
 
 Use `Ctrl + \` to convert it from Unicode and Zawgyi respectively.
 
-#### Known Issues
+### Known Issues
 
-Sometimes the extension won't work on certain websites which doesn't use `<input>` types for text inputs.
+Sometimes the extension won't work on certain websites which don't use `<input>` types for text inputs.
 
 For example: Go to Facebook and try to convert text in Status Box. The font won't change due to Facebook's usage of `<span>` element for text inputs.
 
@@ -24,6 +24,6 @@ Workaround is to create `textNode` and change the `textContent` of the active el
 Note that workaround isn't included in this release, due to it raising more bugs.
 
 
-#### Credits
+### Credits
 
 Uses [knayi-myscript](https://github.com/greenlikeorange/knayi-myscript) library for detection and conversion.
