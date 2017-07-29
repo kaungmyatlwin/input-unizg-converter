@@ -5,9 +5,7 @@
 
 Download [extension](https://github.com/kaungmyatlwin/input-unizg-converter/raw/master/dist/input-unizg-converter.crx).
 
-Go to `chrome://extensions`.
-
-Drag and drop file on that tab.
+If download is initiated, click on Keep.
 
 #### Usage
 
