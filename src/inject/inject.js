@@ -9,7 +9,7 @@
 			var selectedText = getSelectionText();
 			if(knayi.fontDetect(selectedText) === 'zawgyi') {
 				activeElement.value = knayi.fontConvert(selectedText, 'unicode');
-			} else if (knayi.fontDetect(selectedText) === 'zawgyi') {
+			} else if (knayi.fontDetect(selectedText) === 'unicode') {
 				activeElement.value = knayi.fontConvert(selectedText, 'zawgyi');
 			} else {
 				activeElement.value = defaultValue;
