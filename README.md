@@ -3,7 +3,7 @@
 
 #### Installation 
 
-Download [extension](https://github.com/kaungmyatlwin/input-unizg-converter/dist/input-unizg-converter.crx).
+Download [extension](https://github.com/kaungmyatlwin/input-unizg-converter/blob/master/dist/input-unizg-converter.crx).
 
 Go to `chrome://extensions`.
 
